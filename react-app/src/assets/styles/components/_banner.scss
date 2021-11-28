@@ -1,0 +1,57 @@
+.banner-container{
+  position: relative;
+  display: flex;
+  .text-block{
+    width: 50%;
+    height: 100%;
+    margin: 200px 0 0 0;
+    h1{
+      font-size: 72px;
+      font-weight: 800;
+      color: #20284A;
+      line-height: 83.52px;
+    }
+    p{
+      width: 65.3%;
+      font-size: 16px;
+      color: #20284A;
+      line-height: 21.79px;
+      margin: 16px 0 0 0;
+    }
+    .btn-item{
+      width: 168px;
+      position: relative;
+      margin: 48px 0 0 0;
+      cursor: pointer;
+      .btn-text{
+        position: absolute;
+        left: 23px;
+        top: -6px;
+        .text-item{
+          width: 81px;
+          font-size: 14px;
+          color: #fff;
+          font-weight: 700;
+        }
+      }
+    }
+  }
+  .banner-image-block{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 50%;
+    margin: 0 0 0 -50px;
+    .icon-block{
+      margin: 0 10px 0 0;
+      cursor: pointer;
+      display: flex;
+      flex-direction: column;
+      align-self: end;
+      align-items: center;
+      input{
+        margin: 5px 0 0 0;
+        cursor: pointer;
+      }
+    }
+  }
+}
